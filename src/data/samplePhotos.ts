@@ -1,10 +1,14 @@
+import botanicalShadowImg from '../assets/images/sample_botanical_shadow_1795738794811.jpg';
+import coastalWalkImg from '../assets/images/sample_coastal_walk_1795738794925.jpg';
+import morningCafeImg from '../assets/images/sample_morning_cafe_1795738793746.jpg';
+import mountainDawnImg from '../assets/images/sample_mountain_dawn_1795738795190.jpg';
 import { AlbumPhoto } from '../types/album';
 
 export function createSamplePhotos(): AlbumPhoto[] {
   return [
     {
       id: 'sample-1',
-      src: '/src/assets/images/sample_morning_cafe_1795738793746.jpg',
+      src: morningCafeImg,
       fileName: 'morning-cafe.jpg',
       title: '창가의 첫 커피와 기록',
       description:
@@ -15,7 +19,7 @@ export function createSamplePhotos(): AlbumPhoto[] {
     },
     {
       id: 'sample-2',
-      src: '/src/assets/images/sample_coastal_walk_1795738794925.jpg',
+      src: coastalWalkImg,
       fileName: 'coastal-walk.jpg',
       title: '해질녘 해안 산책로',
       description:
@@ -26,7 +30,7 @@ export function createSamplePhotos(): AlbumPhoto[] {
     },
     {
       id: 'sample-3',
-      src: '/src/assets/images/sample_botanical_shadow_1795738794811.jpg',
+      src: botanicalShadowImg,
       fileName: 'botanical-shadow.jpg',
       title: '오후 네 시의 유칼립투스 그림자',
       description:
@@ -37,7 +41,7 @@ export function createSamplePhotos(): AlbumPhoto[] {
     },
     {
       id: 'sample-4',
-      src: '/src/assets/images/sample_mountain_dawn_1795738795190.jpg',
+      src: mountainDawnImg,
       fileName: 'mountain-dawn.jpg',
       title: '안개 낀 능선의 새벽빛',
       description:
